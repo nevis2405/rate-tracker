@@ -31,7 +31,7 @@ def process_batch(df):
                     source_url=row.source_url,
                     raw_response_id=row.raw_response_id,
 
-                    raw_payload=row._asdict()
+                    raw_payload={}
                 )
             )
             success_count += 1
