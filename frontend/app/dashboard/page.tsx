@@ -24,7 +24,7 @@ export default function Dashboard() {
       });
 
       setLatest(latestData);
-      setHistory(historyData.slice(0, 30));
+      setHistory(historyData.results.slice(0, 30));
 
       setError(null);
     } catch (err) {
